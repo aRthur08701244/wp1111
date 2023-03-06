@@ -1,0 +1,33 @@
+.startMenu, .gameMode, .winningMode, .losingMode, .errorMode {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.startMenuBtn {
+  width: 20rem;
+  height: 5rem;
+}
+
+.gameRule {
+  font-size: 1rem;
+}
+
+.gameTitle {
+  font-size: 5rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.resultTitle {
+  font-size: 3rem;
+  font-weight: 500;
+  /* margin: 0; */
+}
+
+.errorMsg {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 0;
+}
